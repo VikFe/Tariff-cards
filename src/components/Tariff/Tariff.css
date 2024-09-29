@@ -1,0 +1,53 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 0.7px;
+    margin: 0.7px;
+    width:270px ;
+    height: 390px;
+    margin-top: 2%;
+    margin-bottom: 2%; 
+    margin-left: 25%;
+    background-color: #EEEEEE;
+    }
+    
+    .selected.hovered {
+        transform: scale(1.1);
+        transition: transform 0.3s;
+    }
+    
+    .card__text {
+        font-size: 1.5rem;
+    }
+
+    .card__price {
+        font-size: 4rem;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-color: lightgray;
+    }
+
+    .blue {
+        background-color: #2AC1D5;
+        color: white;
+    }
+
+    .green {
+        background-color: #23AE8D;
+        color: white;
+    }
+
+    .red {
+        background-color: #F46A5F;
+        color: white;
+    }
+
+    .black{
+        background-color: #333A44;
+        color: white;
+    }
